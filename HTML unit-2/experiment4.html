@@ -1,47 +1,67 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Hotel Room Booking Form</title>
-</head>
-<body align="center">
-
-    <h1 align="center">Hotel Room Booking Form</h1>
-
-    <form action="#" method="post">
-
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" ><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="phone"><br><br>
-
-        <label for="checkin">Check-in Date:</label>
-        <input type="date" id="checkin" name="checkin"><br><br>
-
-        <label for="checkout">Check-out Date:</label>
-        <input type="date" id="checkout" name="checkout"><br><br>
-
-        <label for="roomtype">Room Type:</label>
-        <select id="roomtype" name="roomtype">
-            <option value="single">Single Room</option>
-            <option value="double">Double Room</option>
-            <option value="deluxe">Deluxe Room</option>
-        </select><br><br>
-
-        <label for="guests">Number of Guests:</label>
-        <input type="number" id="guests" name="guests"><br><br>
-
-        <label for="requests">Special Requests:</label><br>
-        <textarea id="requests" name="requests" rows="4" cols="50" placeholder="Enter your special requests here..."></textarea><br><br>
-
-        <button type="submit">Book Now</button>
-        <button type="reset">Reset Form</button>
-
-    </form>
-
-
-</body>
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Hotel Room Booking Form</title> 
+</head> 
+<body align="center"> 
+ 
+    <h1 align="center"><u>Hotel Room Booking Form</u></h1> 
+    <hr> 
+ 
+    <form action="#" method="post"> 
+ 
+        <h3><u>Guest Information</u></h3> 
+ 
+        <label for="fullname">Full Name:</label> 
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name"><br><br> 
+ 
+        <label for="email">Email Address:</label> 
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br> 
+ 
+        <label for="phone">Phone Number:</label> 
+        <input type="tel" id="phone" name="phone" placeholder="Enter your contact number"><br><br> 
+ 
+        <h3><u>Booking Details</u></h3> 
+ 
+        <label for="checkin">Check-in Date:</label> 
+        <input type="date" id="checkin" name="checkin"><br><br> 
+ 
+        <label for="checkout">Check-out Date:</label> 
+        <input type="date" id="checkout" name="checkout"><br><br> 
+ 
+        <label for="guests">Number of Guests:</label> 
+        <input type="number" id="guests" name="guests"><br><br> 
+ 
+        <label for="roomtype">Room Type:</label> 
+        <select id="roomtype" name="roomtype"> 
+            <option value="">--Select Room Type--</option> 
+            <option value="single">Single Room</option> 
+            <option value="double">Double Room</option> 
+            <option value="deluxe">Deluxe Room</option> 
+        </select><br><br> 
+ 
+        <h3><u>Additional Requests</u></h3> 
+        <label for="requests">Any special requests or preferences:</label><br> 
+        <textarea id="requests" name="requests" rows="4" cols="50" placeholder="Enter your special requests here..."></textarea><br><br> 
+ 
+        <h3><u>Payment Method</u></h3> 
+        <label> 
+            <input type="radio" name="payment" value="credit"> Credit Card 
+        </label><br> 
+        <label> 
+            <input type="radio" name="payment" value="debit"> Debit Card 
+        </label><br> 
+        <label> 
+            <input type="radio" name="payment" value="cash"> Cash on Arrival 
+        </label><br><br> 
+ 
+        <button type="submit">Submit Booking</button> 
+        <button type="reset">Reset Form</button> 
+ 
+    </form> 
+ 
+    <hr> 
+    <p align="center">&copy; 2025 xyz Hotel &vert; All Rights Reserved</p> 
+ 
+</body> 
 </html>
