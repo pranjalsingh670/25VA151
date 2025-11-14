@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    border: 0;
+    background-image: url(wp2836008.jpg);
+    background-size: cover;
+    background-position: top left;
+}
+p{
+    font-family: arial;
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow:  1px 1px 1px red;
+    text-wrap:initial ;
+}
+#para1{
+    color:aliceblue;
+
+}
+img{
+    float: left;
+    border: 2px solid cyan;
+    margin:3px;
+}

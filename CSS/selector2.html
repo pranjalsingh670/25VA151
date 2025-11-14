@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+            color:aqua;
+        } */
+        /* div p{
+            color:orange;
+        }
+        p{
+            color:purple;
+        } */
+        /* .box > p{
+            color:green;
+        }
+        div ~p{
+            color:red;
+        }*/
+        a:hover{
+            color:red;
+            font-size: 20px;
+        }
+        a:active{
+            color:chartreuse;
+        }
+        a:visited{
+            color:rgb(228, 244, 8);
+        }
+        ul{
+            list-style: none;
+            display:flex;
+
+        }
+        ul li{
+            margin:20px;
+            border-right: 1px solid red;
+            padding: 10px;
+        }
+        ul li:hover{
+            color:tomato;
+        }
+        .para::first-letter{
+            color:orange;
+            font-size:large;
+        }
+        .para::first-line{
+            background-color: golden;
+        }
+        .para::after{
+            color:aqua;
+            content:"something";
+        }
+        .para::before{
+            color:red;
+            content:"before";
+        }
+    </style>
+</head>
+<body>
+    <!--combinators-->
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sapiente rem nobis obcaecati omnis iure enim. Esse iure porro et ut perferendis quibusdam ipsam sed non ad! Labore, harum quo?</p>
+        <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab id quia amet qui quam dolorum dicta quae sinta repellendus, voluptas reprehenderit blanditiis earum animi quibusdam, cum quas maxime eaque. Odio!</p>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, odio laboriosam labore aspernatur quaerat deserunt dolorem tenetur optio commodi sunt eum temporibus eaque ad error, libero, atque placeat ipsum qui?</p>
+    <a href="https://www.geeksforgeeks.org/css/how-to-fix-button-position-in-css/"> Visit The Line </a>
+    <ul>
+        <li>Home</li>
+        <li>Services</li>
+        <li>About</li>
+        <li>Galary</li>
+        <li>Contact</li>
+    </ul>
+    <p class="para"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nemo ratione repellat ea consectetur? Cum qui modi fuga adipisci corrupti tenetur facere amet expedita eum ducimus. Laboriosam nobis vitae delectus.
+    Quo temporibus officia consectetur eveniet quae tempora impedit molestias illum rem voluptates laboriosam minus alias quos, repellendus at omnis quisquam, velit est laborum blanditiis consequatur illo pariatur magnam? Incidunt, quasi?
+    Saepe blanditiis maiores odio ea. Cupiditate dolores tenetur atque, neque voluptatibus assumenda sint similique dicta dolore consectetur maiores eveniet porro velit. Molestiae odit quod natus quo consequatur nisi voluptatum eum!
+    Neque dolores reprehenderit quia placeat dignissimos eaque ipsam velit sapiente corrupti assumenda quam atque, ab nulla in mollitia. Quia itaque rem rerum sed architecto perspiciatis distinctio temporibus consequatur aliquid fugiat.</p>
+</body>
+</html>
