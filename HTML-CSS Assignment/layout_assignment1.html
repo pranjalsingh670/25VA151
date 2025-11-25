@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            background-color: black;
+            padding: 10px;
+        }
+        .top{
+            border: 1px solid black;
+            background-color: #3399FE;
+            color:white;
+            text-align: center;
+            margin-bottom: 10px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #footer{
+            border: 1px solid black;
+            background-color: grey;
+            text-align: center;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #mid{
+            display:flex;
+            flex-direction: row;
+        }
+        #pagetitle{
+            width: 1000px;
+            border: 1px solid black;
+            background-color: #FE8081;
+            text-align: center;
+            margin-bottom: 10px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #content1{
+            width: 1000px;
+            border: 1px solid black;
+            background-color: #FFCB99;
+            text-align: center;
+            margin-bottom: 10px;
+            height:70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #mainbottom{
+            display: flex;
+            flex-direction: row;
+        }
+        .content{
+            width: 495px;
+            border: 1px solid black;
+            background-color: #FFCB99;
+            text-align: center;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            height:100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #left{
+            display: flex;
+            flex-direction: column;
+        }
+        .bottom{
+            width: 340px;
+            height: 35px;
+            background-color: yellow;
+            margin-bottom: 10px;
+            text-align: center;
+            height: 107px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div>
+            <header class="top">#Header</header>
+            <div class="top">#Nav Global</div>
+        </div>
+        <div id="mid">
+            <div id="right">
+                <div id="pagetitle">#Page Title</div>
+                <div id="content1">#Content 1</div>
+                <div id="mainbottom">
+                    <div class="content">#content 2</div>
+                    <div class="content">#content 3</div>
+                </div>
+            </div>
+            <div id="left">
+                <div class="bottom">#Nav Local</div>
+                <div class="bottom">#Sidebar</div>
+            </div>
+            
+            
+        </div>
+        <footer id="footer">#Footer</footer>
+    </div>
+</body>
+</html>
