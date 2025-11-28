@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(wp2836008.jpg) ;
+            margin: 0;
+        }
+        h2{
+            margin-left: 50px;
+            font-weight: bolder;
+            font-size: 40px;
+            background-color: lightgreen;
+            animation: colorCycle 3s infinite alternate ease-in-out;
+        }
+        @keyframes colorCycle {
+        0%   { color: red; }
+        25%  { color: pink; }
+        50%  { color: purple; }
+        75%  { color: orange; }
+        100% { color: yellow; }
+        }
+        .row{
+            display: flex;
+        }
+        #top{
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height:50px;
+            font-size: 30px;
+            padding-top: 10px;
+            padding-left: 5px;
+        }
+        #button1{
+            height: 20px;
+            background-color: black;
+            color: red;
+            border: solid 0.5px whitesmoke;
+            margin-top:20px;
+            margin-left: 400px;
+        }
+        #searchbar{
+            height: 16px;
+            margin-top:20px;
+            margin-left:10px;
+        }
+        #searchbutton{
+           height: 20px;
+           background-color: orange;
+           color: black;
+           border: solid 0.5px whitesmoke;
+           margin-top:20px;
+           margin-left: 5px; 
+        }
+        .button{
+            height: 20px;
+            background-color: black;
+            color: red;
+            border: solid 0.5px whitesmoke;
+            margin-top:20px;
+            margin-left: 5px;
+        }
+        .mini{
+            border: solid 1px black;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            margin-right: 5px;
+            width: 500px;
+        }
+        .row{
+            margin: 50px;
+        }
+        #image1{
+            background-image: url(https://4.imimg.com/data4/DP/QA/MY-6913865/mens-check-shirts-500x500.jpg);
+            width:120px;
+            height:150px;
+            display: block;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin:10px;
+        }
+        .content{
+            padding: 10px;
+        }
+        .color{
+            display: flex;
+        }
+        .headline{
+            font-size: 25px;
+            font-weight: bolder;
+            margin-bottom: 20px;
+        }
+        .size{
+            display: flex;
+            margin-top: 10px;
+        }
+        .price{
+            display: flex;
+            margin-top: 10px;
+        }
+        .color1{
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .size1{
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .size2{
+            font-weight:300;
+            font-size: 20px;
+        }
+        .price1{
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .price2{
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .addbutton{
+            background-color: #FFD814;
+            border-radius: 10px;
+            margin-right: 5px;
+        }
+        .buybutton{
+            background-color: #FFD814;
+            border-radius: 10px;
+        }
+        #image2{
+            background-image: url(https://i5.walmartimages.com/asr/90e98614-1c7c-4d79-bce4-e5b56eb9a5e7.158b19d4d0c1cc01591489cbbacab92e.jpeg);
+            width:120px;
+            height:150px;
+            display: block;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin:10px;
+        }
+        .fabric{
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .fabric1{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #image3{
+            background-image: url(https://m.media-amazon.com/images/I/71rmM69WmmL._SL1500_.jpg);
+            width:120px;
+            height:150px;
+            display: block;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin:10px;
+        }
+        #image4{
+            background-image: url(https://th.bing.com/th/id/OIP.JKSbiovvQO1N6Rbb1JftjwHaHa?w=174&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3);
+            width:120px;
+            height:150px;
+            display: block;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin:10px;
+        }
+        #image5{
+            background-image: url(https://th.bing.com/th/id/OIP.x6en4MAK8fOmOAWf1BmCgwHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3);
+            width:120px;
+            height:150px;
+            display: block;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin:10px;
+        }
+        #image6{
+            background-image: url(https://tse3.mm.bing.net/th/id/OIP.QrDyKAExrETmRHrP5vKC7AHaKX?rs=1&pid=ImgDetMain&o=7&rm=3);
+            width:120px;
+            height:150px;
+            display: block;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <header> Ecommerce Website</header>
+        <button id="button1">Fashion</button>
+        <button class="button">Electronics</button>
+        <button class="button">Utensils</button>
+        <button class="button">Beauty</button>
+        <input id="searchbar" type="text" id="search" name="fullname" placeholder="Search Items" ><br><br>
+        
+        <button id="searchbutton"> SEARCH</button>
+    </div>
+    <h2>Fashion</h2>
+    <div class="row">
+        <div class="mini">
+            <div id="image1"></div>
+            <div class="content">
+                <div class="headline">Mens designer Blue Check Shirt</div>
+                <div  class="color">
+                    <div class="color1"> Color :</div>
+                    <div style="color: blue; font-weight: bold; font-size: 20px; margin-right: 30px;"> Blue</div>
+                    <div class="fabric"> Fabric :</div>
+                    <div class="fabric1">Cotton</div>
+                </div>
+                <div  class="size">
+                    <div class="size1"> Size :</div>
+                    <div class="size2"> XL</div>
+                </div>
+                <div  class="price">
+                    <div class="price1"> Price </div>
+                    <div class="price2"> ₹410</div>
+                    <button class="addbutton">ADD TO CART</button>
+                    <button class="buybutton">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="mini">
+            <div id="image2"></div>
+            <div class="content">
+                <div class="headline">Mens Slim Fit Cargo Pants</div>
+                <div  class="color">
+                    <div class="color1"> Color :</div>
+                    <div style="color: #CDC6BB; font-weight: bold; font-size: 20px; margin-right: 10px;"> Tan</div>
+                    <div class="fabric"> Fabric :</div>
+                    <div class="fabric1">Linen</div>
+                </div>
+                <div  class="size">
+                    <div class="size1"> Size :</div>
+                    <div class="size2"> 30</div>
+                </div>
+                <div  class="price">
+                    <div class="price1"> Price </div>
+                    <div class="price2"> ₹600</div>
+                    <button class="addbutton">ADD TO CART</button>
+                    <button class="buybutton">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="mini">
+            <div id="image3"></div>
+            <div class="content">
+                <div class="headline">Mens Lymio Hooded Neck Hoodie </div>
+                <div  class="color">
+                    <div class="color1"> Color :</div>
+                    <div style="color: blue; font-weight: bold; font-size: 20px;margin-right: 10px;"> Blue</div>
+                    <div class="fabric"> Fabric :</div>
+                    <div class="fabric1">Cotton</div>
+                </div>
+                <div  class="size">
+                    <div class="size1"> Size :</div>
+                    <div class="size2"> S</div>
+                </div>
+                <div  class="price">
+                    <div class="price1"> Price </div>
+                    <div class="price2"> ₹410</div>
+                    <button class="addbutton">ADD TO CART</button>
+                    <button class="buybutton">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="mini">
+            <div id="image4"></div>
+            <div class="content">
+                <div class="headline">Mens designer Blue Check Shirt</div>
+                <div  class="color">
+                    <div class="color1"> Color :</div>
+                    <div style="color: cyan; font-weight: bold; font-size: 20px; margin-right: 20px;"> Cyan</div>
+                    <div class="fabric"> Fabric :</div>
+                    <div class="fabric1">Cotton</div>
+                </div>
+                <div  class="size">
+                    <div class="size1"> Size :</div>
+                    <div class="size2"> XL</div>
+                </div>
+                <div  class="price">
+                    <div class="price1"> Price </div>
+                    <div class="price2"> ₹500</div>
+                    <button class="addbutton">ADD TO CART</button>
+                    <button class="buybutton">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="mini">
+            <div id="image5"></div>
+            <div class="content">
+                <div class="headline">Mens Slim fit joger Pants</div>
+                <div  class="color">
+                    <div class="color1"> Color :</div>
+                    <div style="color: #717372; font-weight: bold; font-size: 20px; margin-right: 10px;"> Grey</div>
+                    <div class="fabric"> Fabric :</div>
+                    <div class="fabric1">Linen</div>
+                </div>
+                <div  class="size">
+                    <div class="size1"> Size :</div>
+                    <div class="size2"> 30</div>
+                </div>
+                <div  class="price">
+                    <div class="price1"> Price </div>
+                    <div class="price2"> ₹1500</div>
+                    <button class="addbutton">ADD TO CART</button>
+                    <button class="buybutton">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="mini">
+            <div id="image6"></div>
+            <div class="content">
+                <div class="headline">Mens jacket </div>
+                <div  class="color">
+                    <div class="color1"> Color :</div>
+                    <div style="color: black; font-weight: bold; font-size: 20px;margin-right: 10px;"> Black</div>
+                    <div class="fabric"> Fabric :</div>
+                    <div class="fabric1">leather</div>
+                </div>
+                <div  class="size">
+                    <div class="size1"> Size :</div>
+                    <div class="size2"> S</div>
+                </div>
+                <div  class="price">
+                    <div class="price1"> Price </div>
+                    <div class="price2"> ₹2000</div>
+                    <button class="addbutton">ADD TO CART</button>
+                    <button class="buybutton">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h6 style="text-align: center;">Made by Pranjal singh</h6>
+</body>
+</html>
